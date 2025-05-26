@@ -1,5 +1,5 @@
 <p align="center">
-<img src="docs/images/clarus-logo.png" width="15%"/> <img src="docs/images/idsa-logo.png" width="45%"/> 
+<img src="docs/images/clarus-logo.png" width="15%"/> <img src="images/idsa-logo.png" width="45%"/> 
 </p>
 
 ![Version Badge](https://img.shields.io/badge/Release-In%20Progress-green)
@@ -22,4 +22,4 @@ The installation and configuration procedures described in this document adhere 
 
 ## Architecture
 
-![Architecture](docs/images/clarus-architecture.jpg)
+![Architecture](images/clarus-architecture.jpg)
