@@ -1,5 +1,5 @@
 <p align="center">
-<img src="docs/images/clarus-logo.png" width="15%"/> <img src="images/idsa-logo.png" width="45%"/> 
+<img src="images/clarus-logo.png" width="15%"/> <img src="images/idsa-logo.png" width="45%"/> 
 </p>
 
 ![Version Badge](https://img.shields.io/badge/Release-In%20Progress-green)
