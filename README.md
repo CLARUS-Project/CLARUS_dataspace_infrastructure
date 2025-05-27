@@ -13,9 +13,6 @@ The installation and configuration procedures described in this document adhere 
 
 ## Table of contents
 * [**Architecture**](#architecture)
-* [**Development Status**](#development-status)
-* [**Installation Requirements**](#installation-requirements)
-* [**Setup**](#setup)
 * [**Support Team**](#support-team)
 <!--* [**License**](#license)-->
 <!--* [**Endpoints**](#endpoints)-->
@@ -23,3 +20,39 @@ The installation and configuration procedures described in this document adhere 
 ## Architecture
 
 ![Architecture](images/clarus-architecture.jpg)
+
+## Support Team
+
+| Name                        |        E-mail          |
+| :-------------------------- | :--------------------: |
+| [Luigi di Corrado][luigi]   | luigi.dicorrado@eng.it |
+| [Gianluca Isgro'][gianluca] | gianluca.isgro@eng.it  |
+| [Luca Di Lorenzo][luca]     | luca.dilorenzo@eng.it  |
+
+<!--
+## License
+-->
+
+<!--LIST OF LINKS USED-->
+
+[luigi]: https://github.com/luidicorra
+
+[gianluca]: https://github.com/gianluca-isgro
+
+[luca]: https://github.com/ludilorenz
+
+[mvds]: https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md
+
+[idsa]: https://internationaldataspaces.org/
+
+[true-connector]: https://github.com/Engineering-Research-and-Development/true-connector
+
+[testbend]: https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/InstallationGuide.md
+
+[docker]: https://docs.docker.com/         
+
+[omejdn]: https://github.com/Fraunhofer-AISEC/omejdn-server
+
+[metadatabroker]: https://github.com/International-Data-Spaces-Association/metadata-broker-open-core
+
+[clearinghouse]: https://github.com/International-Data-Spaces-Association/ids-clearing-house-service
