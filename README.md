@@ -27,7 +27,7 @@ This repository contains information about the infrastructure used to install th
     * The Certificate Authority (CA) granting X.509 certificates 
     * DAPS: The Dynamic Attributes Provisioning Service to handle dynamic attributes and manage dynamic access tokens
 * [Metadata Broker][metadatabroker]
-* Clearing House
+* [Clearing House][clearinghouse]
 * Two IDS connectors (TRUE Connector Provider and Consumer)
 
 # requirements
@@ -84,4 +84,4 @@ It is recommended to use 64bit quad core processor to provide enough processing 
 
 [metadatabroker]: https://github.com/International-Data-Spaces-Association/metadata-broker-open-core
 
-[clearinghouse]: https://github.com/International-Data-Spaces-Association/ids-clearing-house-service
+[clearinghouse]: https://github.com/CLARUS-Project/clearing-house/tree/main
