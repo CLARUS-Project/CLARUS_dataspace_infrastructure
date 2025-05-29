@@ -18,10 +18,6 @@ This repository contains information about the infrastructure used to install th
 <!--* [**License**](#license)-->
 <!--* [**Endpoints**](#endpoints)-->
 
-## Architecture
-
-![Architecture](images/clarus-architecture.jpg)
-
 ## Components
 * [Identity Provider Omejdn][omejdn] consisting of:
     * The Certificate Authority (CA) granting X.509 certificates 
