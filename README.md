@@ -30,8 +30,24 @@ This repository contains information about the infrastructure used to install th
 * [Clearing House][clearinghouse]
 * Two IDS connectors (TRUE Connector Provider and Consumer)
 
-# requirements
-### Hardware Requirements
+## Reverse proxy
+In order to ensure that project partners could reach and use the various services provided by the MVDS environment, we opted to use a reverse proxy so that they could be reached through a specific domain name by exposing only standard ports (80 for http and 443 for https).
+With the intention of using certificates guaranteed by a certificate authority (CA), the use of [Let's Encrypt][let-s-encrypt] was chosen. These certificates expire every 90 days, but the process for updating them has been automated with corresponding communication to the partners involved.
+
+| Domains                            |
+| :--------------------------------: |
+| be-dataapp-consumer.mvds-clarus.eu |
+| be-dataapp-provider.mvds-claru.eu  |
+| clearing-house.mvds-larus.eu       |
+| daps.mvds-clarus.eu                |
+| ecc-consumer.mvds-clarus.eu        |
+| ecc-provider.mvs-clarus.eu         |
+| mvds-clarus.eu                     |
+| uc-dataapp-consumer.mvds-clarus.eu |
+| uc-dataapp-provider.mvds-clarus.eu |
+
+### Requirements
+* Hardware
 
 |  Name   |           Value           |
 | :-----: | :-----------------------: |
@@ -41,7 +57,7 @@ This repository contains information about the infrastructure used to install th
 
 It is recommended to use 64bit quad core processor to provide enough processing power for all docker containers. 
 
-### Software Requirements
+* Software
 
 |      Name      |      Version     |             Notes        |
 | :------------: | :--------------: | :----------------------: |
@@ -85,3 +101,5 @@ It is recommended to use 64bit quad core processor to provide enough processing 
 [metadatabroker]: https://github.com/International-Data-Spaces-Association/metadata-broker-open-core
 
 [clearinghouse]: https://github.com/CLARUS-Project/clearing-house/tree/main
+
+[let-s-encrypt]: https://letsencrypt.org/
